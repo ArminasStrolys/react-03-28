@@ -25,7 +25,7 @@ class MainForm extends React.Component {
         </button>
         {this.state.visibility && (
           <div>
-            <form className="theForm" onSubmit={alert('išsiųsta')}>
+            <form className="theForm" onSubmit={''}>
               <input type="text" placeholder="Vardas" />
               <input type="text" placeholder="Pavardė" />
               <input type="text" placeholder="El. paštas" />
