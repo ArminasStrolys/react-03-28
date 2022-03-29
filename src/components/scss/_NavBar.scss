@@ -1,0 +1,20 @@
+@import "./_var.scss";
+
+.fakeBar {
+  width: 100%;
+  height: 30px;
+  background-color: $formColor;
+  text-align: right;
+  .fakeBarText {
+    padding-right: 10px;
+    margin: auto;
+    a {
+      color: $whiteColor;
+      text-decoration: none;
+      transition: 1s;
+    }
+    a:hover {
+      color: $bgColor;
+    }
+  }
+}

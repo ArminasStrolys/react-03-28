@@ -1,0 +1,36 @@
+.mainForm {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 27px;
+}
+button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  color: $whiteColor;
+  background-color: $formColor;
+  border: none;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: $whiteColor;
+  color: $formColor;
+}
+.theForm {
+  width: 100%;
+  margin-top: 100px;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: $formColor;
+  text-align: center;
+  input {
+    padding: 10px;
+    width: 50%;
+    margin: 10px 20px;
+    font-size: 8px;
+  }
+}
